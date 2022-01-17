@@ -62,6 +62,7 @@ int main(int argc, char* argv[]) {
 	printf("Result received from server: %s\n", buffer);
 
 	close(data_socket);
+	
 	exit(EXIT_SUCCESS);
 
 }
